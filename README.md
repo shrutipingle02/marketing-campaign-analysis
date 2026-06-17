@@ -6,11 +6,11 @@
 
 ## 📌 Project Overview
 
-This project analyses Nykaa's marketing campaign dataset and builds an interactive analytics dashboard in Python. It takes raw campaign-level data (impressions, clicks, leads, conversions, spend, and revenue) and turns it into a set of derived performance metrics, segment breakdowns, and an executive dashboard.
+This project analyses Nykaa's marketing campaign dataset and builds an interactive analytics dashboard in Python. It takes raw campaign-level data (impressions, clicks, leads, conversions, spend and revenue) and turns it into a set of derived performance metrics, segment breakdowns and an executive dashboard.
 
-The guiding question: *"Across campaigns, channels, and customer segments, where is marketing spend converting efficiently, and where does the funnel leak?"*
+The guiding question: *"Across campaigns, channels, and customer segments, where is marketing spend converting efficiently and where does the funnel leak?"*
 
-The focus was on three goals — engineering meaningful efficiency metrics from raw counts, breaking performance down by campaign type, channel, segment, and audience, and assembling a single-view Plotly dashboard for marketing oversight.
+The focus was on three goals — engineering meaningful efficiency metrics from raw counts, breaking performance down by campaign type, channel, segment and audience and assembling a single-view Plotly dashboard for marketing oversight.
 
 ------------------------------------------------------------------------
 
@@ -26,7 +26,7 @@ The focus was on three goals — engineering meaningful efficiency metrics from 
 ## 📊 The Dataset
 
 -   **55,555 campaign records** across 16 columns, no missing values
--   Fields include: campaign type, channel(s) used, target audience, customer segment, impressions, clicks, leads, conversions, revenue, acquisition cost, ROI, language, engagement score, and date
+-   Fields include: campaign type, channel(s) used, target audience, customer segment, impressions, clicks, leads, conversions, revenue, acquisition cost, ROI, language, engagement score and date
 -   Date range spans roughly mid-2024 through mid-2025
 
 ------------------------------------------------------------------------
