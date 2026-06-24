@@ -4,7 +4,7 @@
 
 ------------------------------------------------------------------------
 
-## 📌 Project Overview
+## Project Overview
 
 This project analyses Nykaa's marketing campaign dataset and builds an interactive analytics dashboard in Python. It takes raw campaign-level data (impressions, clicks, leads, conversions, spend and revenue) and turns it into a set of derived performance metrics, segment breakdowns and an executive dashboard.
 
@@ -14,7 +14,7 @@ The focus was on three goals — engineering meaningful efficiency metrics from 
 
 ------------------------------------------------------------------------
 
-## 🛠️ Tools Used
+##  Tools Used
 
 -   **Python** — core analysis
 -   **pandas / NumPy** — data loading, cleaning, feature engineering, aggregation
@@ -23,7 +23,7 @@ The focus was on three goals — engineering meaningful efficiency metrics from 
 
 ------------------------------------------------------------------------
 
-## 📊 The Dataset
+##  The Dataset
 
 -   **55,555 campaign records** across 16 columns, no missing values
 -   Fields include: campaign type, channel(s) used, target audience, customer segment, impressions, clicks, leads, conversions, revenue, acquisition cost, ROI, language, engagement score and date
@@ -31,21 +31,8 @@ The focus was on three goals — engineering meaningful efficiency metrics from 
 
 ------------------------------------------------------------------------
 
-## 🧮 Metrics Engineered
 
-From the raw counts, the analysis derives the standard marketing efficiency metrics, each guarded against divide-by-zero:
-
-| Metric | Definition |
-|--------|------------|
-| CTR | Clicks ÷ Impressions × 100 |
-| Conversion Rate | Conversions ÷ Clicks × 100 |
-| Cost per Click (CPC) | Acquisition Cost ÷ Clicks |
-| Cost per Lead (CPL) | Acquisition Cost ÷ Leads |
-| Cost per Acquisition (CPA) | Acquisition Cost ÷ Conversions |
-
-------------------------------------------------------------------------
-
-## 📈 Headline Numbers
+##  Headline Numbers
 
 -   **Total Revenue:** ₹28.66B
 -   **Total Spend:** ₹20.96M
@@ -64,7 +51,7 @@ The sharpest drop-off is impressions → clicks, where roughly 91% of impression
 
 ------------------------------------------------------------------------
 
-## 🔍 Breakdowns
+##  Breakdowns
 
 -   **By campaign type:** Revenue is near-evenly split across Influencer, Social Media, Paid Ads, SEO, and Email (all within ~1.5% of each other). On efficiency, **Social Media posts the highest average ROI (2.75)**, with Email lowest (2.68).
 -   **By customer segment:** Working Women generate the most revenue, followed by College Students and Premium Shoppers — again, a tight spread.
@@ -73,7 +60,7 @@ The sharpest drop-off is impressions → clicks, where roughly 91% of impression
 
 ------------------------------------------------------------------------
 
-## 🖼️ Dashboard
+##  Dashboard
 
 The Plotly dashboard combines KPIs, a channel bar chart, a customer-segment treemap, a revenue trend line, and a conversion funnel in one view. A sunburst chart drills revenue down through Channel → Campaign Type → Customer Segment.
 
@@ -83,7 +70,7 @@ The Plotly dashboard combines KPIs, a channel bar chart, a customer-segment tree
 
 ------------------------------------------------------------------------
 
-## 🧠 Key Analytical Decisions
+##  Key Analytical Decisions
 
 *The judgement calls that shaped this analysis: not just what was done but why.*
 
@@ -94,7 +81,7 @@ The Plotly dashboard combines KPIs, a channel bar chart, a customer-segment tree
 
 ------------------------------------------------------------------------
 
-## ⚠️ Assumptions & Limitations
+##  Assumptions & Limitations
 
 -   **Revenue is attributed at the campaign level (single-touch).** Each record's revenue is credited to that campaign; the analysis does not model multi-touch journeys where several campaigns contribute to one conversion.
 -   **Efficiency averages are unweighted.** ROI, CTR and the cost metrics are simple means across campaigns, so a low-spend campaign counts the same as a high-spend one in the averages.
@@ -103,7 +90,7 @@ The Plotly dashboard combines KPIs, a channel bar chart, a customer-segment tree
 
 ------------------------------------------------------------------------
 
-## 📬 Contact
+##  Contact
 
 **Data Analyst:** Shruti Pingle
 
